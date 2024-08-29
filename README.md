@@ -34,10 +34,10 @@ from petfinder_api import pet_search, SearchFilters
 
 # Define your search filters
 filters = SearchFilters(
-    country="US",
-    state="CA",
-    zip_code="90210",
-    pet_type="dogs",
+    country="US",     # Required
+    state="CA",       # Required
+    zip_code="90210", # Required
+    pet_type="dogs",  # Required
     distance=50,
     include_transportable=True,
     sort="nearest"
